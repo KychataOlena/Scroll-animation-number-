@@ -1,0 +1,64 @@
+
+.advantages {
+  padding-top: 40px;
+  padding-bottom: 60px;
+  width: 100%;
+  background-color: var(--bg-secondary-color);
+
+  outline: 1px solid tomato;
+
+
+
+}
+
+.advantages__list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+
+
+}
+
+
+
+.advantages__number{
+  display: inline-block;
+  font-family: var(--secondary-font);
+  color: var( --text-third-color);
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.13;
+  letter-spacing: 0.04em;
+  margin-bottom: 29px;
+
+
+}
+
+.advantages__text{
+
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.66;
+  color: var(--text-primary-color);
+  max-width: 230px;
+  margin-bottom: 0;
+
+
+}
+
+.advantades__inner{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.advantades__icon{
+  margin-bottom: 25px;
+
+
+  
+}
